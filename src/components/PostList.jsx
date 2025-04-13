@@ -3,7 +3,7 @@ import { PostItem } from './PostItem';
 
 export const PostList = ({posts, title}) => {
 	
-
+	
   return (
 	<div>
 		<h1>{title}</h1>
@@ -13,5 +13,4 @@ export const PostList = ({posts, title}) => {
 	</div>
   );
 };
-
 export default PostList;
